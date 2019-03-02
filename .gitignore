@@ -1,0 +1,40 @@
+.idea/
+*.iml
+### Java template
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Created by .ignore support plugin (hsz.mobi)
+
+#Ignore the generated git*.properties files.
+git-*.properties
+
+/conf/
+target/
+build/
+dist/
+
+*.DS_Store
+build.properties
+
+# Berkeley DB files
+*.jdb
+*.lck
+
+# H2 DB files
+*.db
+
+#hide npm modules
+node_modules/
+
+*application-local.yml
+*application-local.properties
+/swg-client/
